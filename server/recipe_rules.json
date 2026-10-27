@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "generation": [
+    "The baseline is the cooking method and portion reference. Preserve its flavor-building order and quantities of unchanged fresh ingredients.",
+    "Scale quantities to requested servings ONCE. Added ingredients must not cause multiplying all remaining seasonings or broth.",
+    "Keep instructions brief, one essential action per bullet, and prepare cutting before cooking.",
+    "Available ingredients are candidates: choose only those suitable for one coherent dish. Every ingredient in the output must be used in a cooking phase, but not every available candidate must be included. Preserve the requested dish identity and its defining ingredients. Do not add unavailable seasonings. Do not enumerate unused candidates.",
+    "Announce heat before heating. Frying and simmering require an explicit heat and timer.",
+    "Do not substitute boiling for baseline frying aromatics, kimchi or meat. Preserve cold-oil chili blooming when the baseline specifies it.",
+    "If a missing ingredient makes the source technique impossible, disclose the limitation instead of claiming the same flavor.",
+    "Instructions must be short essential cooking actions. Omit equipment-type disclaimers, manufacturer guidance, setup/stability checks and redundant process explanations. For pan frying, give oil-first preheating as a direct action without adding oil twice. Preserve actual doneness cues and technique-critical heat order."
+  ],
+  "sundubu": {
+    "retain": [
+      "고추기름을 약불에서 낸 후 물을 넣기",
+      "기본 레시피의 간장 향 내기 과정 유지",
+      "순두부를 마지막에 넣고 과하게 젓지 않기"
+    ],
+    "chili_heat": [
+      "low",
+      "mediumLow"
+    ]
+  }
+}

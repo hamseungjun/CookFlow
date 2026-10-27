@@ -1,0 +1,135 @@
+{
+  "title": "버섯 된장찌개",
+  "servings": 2,
+  "waterML": 350,
+  "ingredients": [
+    {
+      "id": "ing_water",
+      "name": "물",
+      "amount": 350,
+      "unit": "ml",
+      "fresh": false,
+      "cut": "계량"
+    },
+    {
+      "id": "ing_doenjang",
+      "name": "된장",
+      "amount": 2,
+      "unit": "큰술",
+      "fresh": false,
+      "cut": "계량"
+    },
+    {
+      "id": "ing_aehobak",
+      "name": "애호박",
+      "amount": 0.5,
+      "unit": "개",
+      "fresh": true,
+      "cut": "0.5cm 두께로 반달썰기"
+    },
+    {
+      "id": "ing_mushroom",
+      "name": "버섯",
+      "amount": 80,
+      "unit": "g",
+      "fresh": true,
+      "cut": "한입 크기로 썰거나 밑동 제거 후 찢기"
+    },
+    {
+      "id": "ing_tofu",
+      "name": "두부",
+      "amount": 0.5,
+      "unit": "모",
+      "fresh": true,
+      "cut": "한입 크기로 깍둑썰기"
+    },
+    {
+      "id": "ing_daepa",
+      "name": "대파",
+      "amount": 0.5,
+      "unit": "대",
+      "fresh": true,
+      "cut": "어슷썰기"
+    }
+  ],
+  "steps": [
+    {
+      "action": "add",
+      "title": "물 붓기",
+      "instruction": "냄비에 물 350ml를 붓습니다.",
+      "seconds": 10,
+      "heat": "off",
+      "ingredientIDs": [
+        "ing_water"
+      ]
+    },
+    {
+      "action": "heat",
+      "title": "물 끓이기",
+      "instruction": "불을 강불로 켜고 물이 끓어오를 때까지 기다립니다.",
+      "seconds": 180,
+      "heat": "high",
+      "ingredientIDs": [
+        "ing_water"
+      ]
+    },
+    {
+      "action": "add",
+      "title": "된장 풀기",
+      "instruction": "끓는 물에 된장 2큰술을 체에 밭쳐 골고루 풀어 넣습니다.",
+      "seconds": 30,
+      "heat": "mediumHigh",
+      "ingredientIDs": [
+        "ing_doenjang"
+      ]
+    },
+    {
+      "action": "add",
+      "title": "애호박과 버섯 넣기",
+      "instruction": "손질한 애호박과 버섯을 국물에 넣습니다.",
+      "seconds": 20,
+      "heat": "mediumHigh",
+      "ingredientIDs": [
+        "ing_aehobak",
+        "ing_mushroom"
+      ]
+    },
+    {
+      "action": "simmer",
+      "title": "채소 익히기",
+      "instruction": "중불에서 채소의 맛이 우러나고 애호박이 투명해질 때까지 끓입니다.",
+      "seconds": 180,
+      "heat": "medium",
+      "ingredientIDs": [
+        "ing_aehobak",
+        "ing_mushroom"
+      ]
+    },
+    {
+      "action": "add",
+      "title": "두부와 대파 넣기",
+      "instruction": "깍둑썬 두부와 어슷썬 대파를 넣습니다.",
+      "seconds": 20,
+      "heat": "medium",
+      "ingredientIDs": [
+        "ing_tofu",
+        "ing_daepa"
+      ]
+    },
+    {
+      "action": "simmer",
+      "title": "마무리 끓이기",
+      "instruction": "두부에 간이 배고 대파 향이 퍼지도록 중불에서 한소끔 더 끓입니다.",
+      "seconds": 120,
+      "heat": "medium",
+      "ingredientIDs": [
+        "ing_tofu",
+        "ing_daepa"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "시판된장 및 집된장의 염도 차이에 따라 국물의 짠맛이 달라질 수 있습니다.",
+    "사용하는 버섯의 종류(팽이, 표고, 새송이 등)에 따라 조리 시간이나 익힘 상태에 약간의 차이가 있을 수 있습니다."
+  ]
+}

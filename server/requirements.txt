@@ -1,0 +1,2 @@
+webrtcvad-wheels==2.0.14.post1
+av==19.0.1

@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025A752921D90FE593DC3620 /* CookFlow/Services/CountdownSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7668FA14FCACB043CE494AFD /* CookFlow/Services/CountdownSound.swift */; };
+		07D74C11EBC30E448A0F65B0 /* CookFlow/Views/SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095430FC88828B5EE238DC5D /* CookFlow/Views/SessionView.swift */; };
+		0805A6520733E92BE86397C3 /* CookFlow/Services/PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76066BFF4F98578A4E4D7D42 /* CookFlow/Services/PhotoService.swift */; };
+		1230B19907DE04CCB62EC9DA /* CookFlow/Views/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB162C138303C46A6E3A441 /* CookFlow/Views/Theme.swift */; };
+		267A377CA1FC0C13133A5F2D /* CookFlow/Services/AIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B9D2D4404E445DB4417DE /* CookFlow/Services/AIConnection.swift */; };
+		28EC3440CE57FEB91DC7BF08 /* CookFlow/CookFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7524AD61926DFEC808C8EAEB /* CookFlow/CookFlowApp.swift */; };
+		2911F0F15280242B8FDA1D36 /* CookFlow/Views/IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1D756D88DABBDA4A2A209 /* CookFlow/Views/IngredientsView.swift */; };
+		2D44F0BA253783832BEB783C /* CookFlow/Core/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55485B382BC8C6544A279C8B /* CookFlow/Core/Models.swift */; };
+		34059E7EA38B9B114C3B9C7F /* CookFlow/Core/HeatControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F62A611E5888932045882 /* CookFlow/Core/HeatControls.swift */; };
+		40F7F5DD0E255BDBBA51027F /* CookFlow/Core/VideoRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497113904FB07C0A11E088B /* CookFlow/Core/VideoRecipe.swift */; };
+		4489D4EDF49DA38BA7FF0E90 /* CookFlow/Core/RecipeRevisionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CD637FBB0EA7638DF93FDE /* CookFlow/Core/RecipeRevisionEngine.swift */; };
+		54C802EEE2C96980EA7D9A49 /* CookFlow/Services/AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C0A28E0E479B63D41F3F3 /* CookFlow/Services/AppStore.swift */; };
+		5FA4972B22182B349EC151E3 /* CookFlow/Views/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C22E4C3EA379B0D9D1ECAE /* CookFlow/Views/HomeView.swift */; };
+		6A3134349DC71FA27504718F /* CookFlow/Views/RemainingRecipeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E9376F63F50DA5148FC86 /* CookFlow/Views/RemainingRecipeEditor.swift */; };
+		74146EB2B8D3B53626FF1E17 /* CookFlow/Views/HeatControlEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232C215ACAAF2B9ABFDB459 /* CookFlow/Views/HeatControlEditor.swift */; };
+		7F48E3AE22721DA0EA702431 /* CookFlow/Core/HomeMealCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EC93BEE790CB58C8B0CE8 /* CookFlow/Core/HomeMealCatalog.swift */; };
+		8050250179B08A8A55725228 /* CookFlow/Core/CookingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB184E32AD45BA6E7720F2 /* CookFlow/Core/CookingFlow.swift */; };
+		818868E4002D52710DA17BDA /* CookFlow/Services/LiveCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20802925574D5B50DD90BDB /* CookFlow/Services/LiveCamera.swift */; };
+		818DB33273FC64F1948266B2 /* CookFlow/Views/PreparationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041532BF420BD424ABA8D08D /* CookFlow/Views/PreparationView.swift */; };
+		88CEC75E78AB97CB97F9B75D /* CookFlow/Services/VoiceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C6CDACF12A94395C31989 /* CookFlow/Services/VoiceService.swift */; };
+		8D35DE3CFAF559ACFF69ADF6 /* CookFlow/Core/RecipeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B30EA404A8EA603843B21F /* CookFlow/Core/RecipeEngine.swift */; };
+		A31C21819AE82A3F85E2C00F /* CookFlow/Services/TestingAudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D461093E3613721268AB1F9 /* CookFlow/Services/TestingAudioCapture.swift */; };
+		BA1CA75B32DDB9BFFE1542D2 /* CookFlow/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 888F205D4AFE5462B0C33552 /* CookFlow/PrivacyInfo.xcprivacy */; };
+		C8F4216652D94950314A00DD /* CookFlow/Views/HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639FE5E5C430EB7CD26B947B /* CookFlow/Views/HistoryView.swift */; };
+		D10E829F29DCA9956E455F1F /* CookFlow/Core/CountdownCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59D5177EFE4373116B09698 /* CookFlow/Core/CountdownCue.swift */; };
+		D15E13A6BDFE95870F995364 /* CookFlow/Views/GroceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33939A4608E045EEDE9A03C2 /* CookFlow/Views/GroceryView.swift */; };
+		D496599E773ACC304111D67E /* CookFlow/Core/SessionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E2CDD32B8D0F11E93698F9 /* CookFlow/Core/SessionEngine.swift */; };
+		DF11A2F38C6B9DDCBD2685B1 /* CookFlow/Views/AIRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FF7BAB5A8784FD76877ED9 /* CookFlow/Views/AIRecipeView.swift */; };
+		DF5E9724CE7A9F06D108EA63 /* CookFlow/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62EA786B2F4D9BB6CAF5F9D0 /* CookFlow/Assets.xcassets */; };
+		F125FCC434F2890367214861 /* CookFlow/Views/HeatGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55961E9C61F07C0077E6E940 /* CookFlow/Views/HeatGuide.swift */; };
+		F45FD12C93D7922ED0AFDE0E /* CookFlow/Views/VideoRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC53B5FDFA8A11E85C3A8FA /* CookFlow/Views/VideoRecipeView.swift */; };
+		F68CD6425C50077800104208 /* CookFlow/Core/RecipeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14819DB415C79BDC0CFE10CF /* CookFlow/Core/RecipeMenu.swift */; };
+		FA622BDEA96A8F3F36E7764B /* CookFlow/Views/KitchenEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05861C53298AA8E281BE57D9 /* CookFlow/Views/KitchenEditor.swift */; };
+		FF55076F36DB4F06B54E7D6D /* CookFlow/Views/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494039C0C9364A52A2B3ABDB /* CookFlow/Views/SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA11BB22CC33DD44EE55FF66 /* Public.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CookFlow/Public.xcconfig; sourceTree = SOURCE_ROOT; };
+		041532BF420BD424ABA8D08D /* CookFlow/Views/PreparationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/PreparationView.swift; sourceTree = SOURCE_ROOT; };
+		05861C53298AA8E281BE57D9 /* CookFlow/Views/KitchenEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/KitchenEditor.swift; sourceTree = SOURCE_ROOT; };
+		08CD637FBB0EA7638DF93FDE /* CookFlow/Core/RecipeRevisionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/RecipeRevisionEngine.swift; sourceTree = SOURCE_ROOT; };
+		095430FC88828B5EE238DC5D /* CookFlow/Views/SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/SessionView.swift; sourceTree = SOURCE_ROOT; };
+		0A4EC93BEE790CB58C8B0CE8 /* CookFlow/Core/HomeMealCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/HomeMealCatalog.swift; sourceTree = SOURCE_ROOT; };
+		14819DB415C79BDC0CFE10CF /* CookFlow/Core/RecipeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/RecipeMenu.swift; sourceTree = SOURCE_ROOT; };
+		1D4E9376F63F50DA5148FC86 /* CookFlow/Views/RemainingRecipeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/RemainingRecipeEditor.swift; sourceTree = SOURCE_ROOT; };
+		33939A4608E045EEDE9A03C2 /* CookFlow/Views/GroceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/GroceryView.swift; sourceTree = SOURCE_ROOT; };
+		461C6CDACF12A94395C31989 /* CookFlow/Services/VoiceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Services/VoiceService.swift; sourceTree = SOURCE_ROOT; };
+		494039C0C9364A52A2B3ABDB /* CookFlow/Views/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		55485B382BC8C6544A279C8B /* CookFlow/Core/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/Models.swift; sourceTree = SOURCE_ROOT; };
+		55961E9C61F07C0077E6E940 /* CookFlow/Views/HeatGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/HeatGuide.swift; sourceTree = SOURCE_ROOT; };
+		56FF7BAB5A8784FD76877ED9 /* CookFlow/Views/AIRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/AIRecipeView.swift; sourceTree = SOURCE_ROOT; };
+		5EB162C138303C46A6E3A441 /* CookFlow/Views/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/Theme.swift; sourceTree = SOURCE_ROOT; };
+		62EA786B2F4D9BB6CAF5F9D0 /* CookFlow/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CookFlow/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		639FE5E5C430EB7CD26B947B /* CookFlow/Views/HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/HistoryView.swift; sourceTree = SOURCE_ROOT; };
+		7524AD61926DFEC808C8EAEB /* CookFlow/CookFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/CookFlowApp.swift; sourceTree = SOURCE_ROOT; };
+		76066BFF4F98578A4E4D7D42 /* CookFlow/Services/PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Services/PhotoService.swift; sourceTree = SOURCE_ROOT; };
+		7668FA14FCACB043CE494AFD /* CookFlow/Services/CountdownSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Services/CountdownSound.swift; sourceTree = SOURCE_ROOT; };
+		7D1043473D55BFA90E8530D3 /* CookFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E2CDD32B8D0F11E93698F9 /* CookFlow/Core/SessionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/SessionEngine.swift; sourceTree = SOURCE_ROOT; };
+		8497113904FB07C0A11E088B /* CookFlow/Core/VideoRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/VideoRecipe.swift; sourceTree = SOURCE_ROOT; };
+		888F205D4AFE5462B0C33552 /* CookFlow/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CookFlow/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
+		8C6C0A28E0E479B63D41F3F3 /* CookFlow/Services/AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Services/AppStore.swift; sourceTree = SOURCE_ROOT; };
+		8D461093E3613721268AB1F9 /* CookFlow/Services/TestingAudioCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Services/TestingAudioCapture.swift; sourceTree = SOURCE_ROOT; };
+		8E4F62A611E5888932045882 /* CookFlow/Core/HeatControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/HeatControls.swift; sourceTree = SOURCE_ROOT; };
+		95B30EA404A8EA603843B21F /* CookFlow/Core/RecipeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/RecipeEngine.swift; sourceTree = SOURCE_ROOT; };
+		9FBB184E32AD45BA6E7720F2 /* CookFlow/Core/CookingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/CookingFlow.swift; sourceTree = SOURCE_ROOT; };
+		9FC53B5FDFA8A11E85C3A8FA /* CookFlow/Views/VideoRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/VideoRecipeView.swift; sourceTree = SOURCE_ROOT; };
+		A59D5177EFE4373116B09698 /* CookFlow/Core/CountdownCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Core/CountdownCue.swift; sourceTree = SOURCE_ROOT; };
+		ADF1D756D88DABBDA4A2A209 /* CookFlow/Views/IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/IngredientsView.swift; sourceTree = SOURCE_ROOT; };
+		C6C22E4C3EA379B0D9D1ECAE /* CookFlow/Views/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		D90B9D2D4404E445DB4417DE /* CookFlow/Services/AIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Services/AIConnection.swift; sourceTree = SOURCE_ROOT; };
+		F20802925574D5B50DD90BDB /* CookFlow/Services/LiveCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Services/LiveCamera.swift; sourceTree = SOURCE_ROOT; };
+		F232C215ACAAF2B9ABFDB459 /* CookFlow/Views/HeatControlEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFlow/Views/HeatControlEditor.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E50290A24C49A459B43487C5 = {
+			isa = PBXGroup;
+			children = (
+				AA11BB22CC33DD44EE55FF66 /* Public.xcconfig */,
+				7524AD61926DFEC808C8EAEB /* CookFlow/CookFlowApp.swift */,
+				9FBB184E32AD45BA6E7720F2 /* CookFlow/Core/CookingFlow.swift */,
+				A59D5177EFE4373116B09698 /* CookFlow/Core/CountdownCue.swift */,
+				8E4F62A611E5888932045882 /* CookFlow/Core/HeatControls.swift */,
+				0A4EC93BEE790CB58C8B0CE8 /* CookFlow/Core/HomeMealCatalog.swift */,
+				55485B382BC8C6544A279C8B /* CookFlow/Core/Models.swift */,
+				95B30EA404A8EA603843B21F /* CookFlow/Core/RecipeEngine.swift */,
+				14819DB415C79BDC0CFE10CF /* CookFlow/Core/RecipeMenu.swift */,
+				08CD637FBB0EA7638DF93FDE /* CookFlow/Core/RecipeRevisionEngine.swift */,
+				83E2CDD32B8D0F11E93698F9 /* CookFlow/Core/SessionEngine.swift */,
+				8497113904FB07C0A11E088B /* CookFlow/Core/VideoRecipe.swift */,
+				D90B9D2D4404E445DB4417DE /* CookFlow/Services/AIConnection.swift */,
+				8C6C0A28E0E479B63D41F3F3 /* CookFlow/Services/AppStore.swift */,
+				7668FA14FCACB043CE494AFD /* CookFlow/Services/CountdownSound.swift */,
+				F20802925574D5B50DD90BDB /* CookFlow/Services/LiveCamera.swift */,
+				76066BFF4F98578A4E4D7D42 /* CookFlow/Services/PhotoService.swift */,
+				8D461093E3613721268AB1F9 /* CookFlow/Services/TestingAudioCapture.swift */,
+				461C6CDACF12A94395C31989 /* CookFlow/Services/VoiceService.swift */,
+				56FF7BAB5A8784FD76877ED9 /* CookFlow/Views/AIRecipeView.swift */,
+				33939A4608E045EEDE9A03C2 /* CookFlow/Views/GroceryView.swift */,
+				F232C215ACAAF2B9ABFDB459 /* CookFlow/Views/HeatControlEditor.swift */,
+				55961E9C61F07C0077E6E940 /* CookFlow/Views/HeatGuide.swift */,
+				639FE5E5C430EB7CD26B947B /* CookFlow/Views/HistoryView.swift */,
+				C6C22E4C3EA379B0D9D1ECAE /* CookFlow/Views/HomeView.swift */,
+				ADF1D756D88DABBDA4A2A209 /* CookFlow/Views/IngredientsView.swift */,
+				05861C53298AA8E281BE57D9 /* CookFlow/Views/KitchenEditor.swift */,
+				041532BF420BD424ABA8D08D /* CookFlow/Views/PreparationView.swift */,
+				1D4E9376F63F50DA5148FC86 /* CookFlow/Views/RemainingRecipeEditor.swift */,
+				095430FC88828B5EE238DC5D /* CookFlow/Views/SessionView.swift */,
+				494039C0C9364A52A2B3ABDB /* CookFlow/Views/SettingsView.swift */,
+				5EB162C138303C46A6E3A441 /* CookFlow/Views/Theme.swift */,
+				9FC53B5FDFA8A11E85C3A8FA /* CookFlow/Views/VideoRecipeView.swift */,
+				62EA786B2F4D9BB6CAF5F9D0 /* CookFlow/Assets.xcassets */,
+				888F205D4AFE5462B0C33552 /* CookFlow/PrivacyInfo.xcprivacy */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1043473D55BFA90E8530D3 /* CookFlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* CookFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F497FD0CF9CA1625C4A860DE /* Build configuration list for PBXNativeTarget "CookFlow" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookFlow;
+			productName = CookFlow;
+			productReference = 7D1043473D55BFA90E8530D3 /* CookFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 49EA05A46B1A86EA7E413B43 /* Build configuration list for PBXProject "CookFlow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ko,
+				en,
+				Base,
+			);
+			mainGroup = E50290A24C49A459B43487C5;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* CookFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5E9724CE7A9F06D108EA63 /* CookFlow/Assets.xcassets in Resources */,
+				BA1CA75B32DDB9BFFE1542D2 /* CookFlow/PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EC3440CE57FEB91DC7BF08 /* CookFlow/CookFlowApp.swift in Sources */,
+				8050250179B08A8A55725228 /* CookFlow/Core/CookingFlow.swift in Sources */,
+				D10E829F29DCA9956E455F1F /* CookFlow/Core/CountdownCue.swift in Sources */,
+				34059E7EA38B9B114C3B9C7F /* CookFlow/Core/HeatControls.swift in Sources */,
+				7F48E3AE22721DA0EA702431 /* CookFlow/Core/HomeMealCatalog.swift in Sources */,
+				2D44F0BA253783832BEB783C /* CookFlow/Core/Models.swift in Sources */,
+				8D35DE3CFAF559ACFF69ADF6 /* CookFlow/Core/RecipeEngine.swift in Sources */,
+				F68CD6425C50077800104208 /* CookFlow/Core/RecipeMenu.swift in Sources */,
+				4489D4EDF49DA38BA7FF0E90 /* CookFlow/Core/RecipeRevisionEngine.swift in Sources */,
+				D496599E773ACC304111D67E /* CookFlow/Core/SessionEngine.swift in Sources */,
+				40F7F5DD0E255BDBBA51027F /* CookFlow/Core/VideoRecipe.swift in Sources */,
+				267A377CA1FC0C13133A5F2D /* CookFlow/Services/AIConnection.swift in Sources */,
+				54C802EEE2C96980EA7D9A49 /* CookFlow/Services/AppStore.swift in Sources */,
+				025A752921D90FE593DC3620 /* CookFlow/Services/CountdownSound.swift in Sources */,
+				818868E4002D52710DA17BDA /* CookFlow/Services/LiveCamera.swift in Sources */,
+				0805A6520733E92BE86397C3 /* CookFlow/Services/PhotoService.swift in Sources */,
+				A31C21819AE82A3F85E2C00F /* CookFlow/Services/TestingAudioCapture.swift in Sources */,
+				88CEC75E78AB97CB97F9B75D /* CookFlow/Services/VoiceService.swift in Sources */,
+				DF11A2F38C6B9DDCBD2685B1 /* CookFlow/Views/AIRecipeView.swift in Sources */,
+				D15E13A6BDFE95870F995364 /* CookFlow/Views/GroceryView.swift in Sources */,
+				74146EB2B8D3B53626FF1E17 /* CookFlow/Views/HeatControlEditor.swift in Sources */,
+				F125FCC434F2890367214861 /* CookFlow/Views/HeatGuide.swift in Sources */,
+				C8F4216652D94950314A00DD /* CookFlow/Views/HistoryView.swift in Sources */,
+				5FA4972B22182B349EC151E3 /* CookFlow/Views/HomeView.swift in Sources */,
+				2911F0F15280242B8FDA1D36 /* CookFlow/Views/IngredientsView.swift in Sources */,
+				FA622BDEA96A8F3F36E7764B /* CookFlow/Views/KitchenEditor.swift in Sources */,
+				818DB33273FC64F1948266B2 /* CookFlow/Views/PreparationView.swift in Sources */,
+				6A3134349DC71FA27504718F /* CookFlow/Views/RemainingRecipeEditor.swift in Sources */,
+				07D74C11EBC30E448A0F65B0 /* CookFlow/Views/SessionView.swift in Sources */,
+				FF55076F36DB4F06B54E7D6D /* CookFlow/Views/SettingsView.swift in Sources */,
+				1230B19907DE04CCB62EC9DA /* CookFlow/Views/Theme.swift in Sources */,
+				F45FD12C93D7922ED0AFDE0E /* CookFlow/Views/VideoRecipeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5283471FF90C511CFE244FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		59E1BEE911F66DA37FEBACDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA11BB22CC33DD44EE55FF66 /* Public.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HMZ7XA72P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CookFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cookflow.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB52CB08E0FDF02BF6C67C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4C425279CD5DDD18FD6DC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA11BB22CC33DD44EE55FF66 /* Public.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HMZ7XA72P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CookFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cookflow.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49EA05A46B1A86EA7E413B43 /* Build configuration list for PBXProject "CookFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB52CB08E0FDF02BF6C67C33 /* Debug */,
+				5283471FF90C511CFE244FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F497FD0CF9CA1625C4A860DE /* Build configuration list for PBXNativeTarget "CookFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E1BEE911F66DA37FEBACDC /* Debug */,
+				F4C425279CD5DDD18FD6DC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

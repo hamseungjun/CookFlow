@@ -1,0 +1,305 @@
+{
+  "title": "순두부찌개",
+  "servings": 2,
+  "waterML": 500,
+  "ingredients": [
+    {
+      "id": "oil",
+      "name": "식용유",
+      "amount": 2,
+      "unit": "큰술",
+      "fresh": false,
+      "cut": "그대로 준비"
+    },
+    {
+      "id": "onion",
+      "name": "양파",
+      "amount": 100,
+      "unit": "g",
+      "fresh": true,
+      "cut": "작게 깍둑썰기"
+    },
+    {
+      "id": "garlic",
+      "name": "마늘",
+      "amount": 1.25,
+      "unit": "큰술",
+      "fresh": true,
+      "cut": "0.3cm 이하 다지기"
+    },
+    {
+      "id": "chiliPowder",
+      "name": "고춧가루",
+      "amount": 3,
+      "unit": "큰술",
+      "fresh": false,
+      "cut": "그대로 준비"
+    },
+    {
+      "id": "soySauce",
+      "name": "진간장",
+      "amount": 2,
+      "unit": "큰술",
+      "fresh": false,
+      "cut": "그대로 준비"
+    },
+    {
+      "id": "water",
+      "name": "물",
+      "amount": 500,
+      "unit": "ml",
+      "fresh": false,
+      "cut": "그대로 준비"
+    },
+    {
+      "id": "stockCoin",
+      "name": "코인육수",
+      "amount": 2,
+      "unit": "개",
+      "fresh": false,
+      "cut": "그대로 준비"
+    },
+    {
+      "id": "fishSauce",
+      "name": "멸치액젓",
+      "amount": 2,
+      "unit": "작은술",
+      "fresh": false,
+      "cut": "그대로 준비"
+    },
+    {
+      "id": "zucchini",
+      "name": "애호박",
+      "amount": 140,
+      "unit": "g",
+      "fresh": true,
+      "cut": "0.5~0.8cm 반달썰기"
+    },
+    {
+      "id": "mushroom",
+      "name": "버섯",
+      "amount": 80,
+      "unit": "g",
+      "fresh": true,
+      "cut": "한 입 크기로 찢거나 썰기"
+    },
+    {
+      "id": "softTofu",
+      "name": "순두부",
+      "amount": 700,
+      "unit": "g",
+      "fresh": true,
+      "cut": "봉지째 준비 후 조리 시 큼직하게 떠 넣기"
+    },
+    {
+      "id": "pepper",
+      "name": "후추",
+      "amount": 0.2,
+      "unit": "g",
+      "fresh": false,
+      "cut": "그대로 준비"
+    }
+  ],
+  "steps": [
+    {
+      "action": "heat",
+      "title": "기름 예열 설정",
+      "instruction": "화구를 중약불로 설정해 주세요.",
+      "seconds": 0,
+      "heat": "mediumLow",
+      "ingredientIDs": []
+    },
+    {
+      "action": "add",
+      "title": "향채소 및 기름 넣기",
+      "instruction": "냄비에 식용유, 양파, 마늘을 넣어주세요.",
+      "seconds": 0,
+      "heat": "mediumLow",
+      "ingredientIDs": [
+        "oil",
+        "onion",
+        "garlic"
+      ]
+    },
+    {
+      "action": "stir",
+      "title": "향채소 볶기",
+      "instruction": "양파와 마늘이 투명해지며 향이 올라올 때까지 1분간 볶아주세요.",
+      "seconds": 60,
+      "heat": "mediumLow",
+      "ingredientIDs": [
+        "oil",
+        "onion",
+        "garlic"
+      ]
+    },
+    {
+      "action": "heat",
+      "title": "약불 조절",
+      "instruction": "고춧가루가 타지 않도록 화구를 약불로 낮춰주세요.",
+      "seconds": 0,
+      "heat": "low",
+      "ingredientIDs": []
+    },
+    {
+      "action": "add",
+      "title": "고춧가루 넣기",
+      "instruction": "고춧가루를 냄비에 넣어주세요.",
+      "seconds": 0,
+      "heat": "low",
+      "ingredientIDs": [
+        "chiliPowder"
+      ]
+    },
+    {
+      "action": "stir",
+      "title": "고추기름 내기",
+      "instruction": "타지 않도록 저어가며 약불에서 25초간 볶아 고추기름을 내주세요.",
+      "seconds": 25,
+      "heat": "low",
+      "ingredientIDs": [
+        "chiliPowder",
+        "oil",
+        "onion",
+        "garlic"
+      ]
+    },
+    {
+      "action": "add",
+      "title": "진간장 넣기",
+      "instruction": "진간장을 냄비 가장자리에 둘러 넣어주세요.",
+      "seconds": 0,
+      "heat": "low",
+      "ingredientIDs": [
+        "soySauce"
+      ]
+    },
+    {
+      "action": "stir",
+      "title": "간장 눌리기",
+      "instruction": "간장이 바글바글 끓으며 풍미가 올라오도록 15초간 볶아 섞어주세요.",
+      "seconds": 15,
+      "heat": "low",
+      "ingredientIDs": [
+        "soySauce",
+        "chiliPowder",
+        "oil",
+        "onion",
+        "garlic"
+      ]
+    },
+    {
+      "action": "add",
+      "title": "국물 및 채소 넣기",
+      "instruction": "물 500ml를 붓고 코인육수, 멸치액젓, 애호박, 버섯을 넣어주세요.",
+      "seconds": 0,
+      "heat": "low",
+      "ingredientIDs": [
+        "water",
+        "stockCoin",
+        "fishSauce",
+        "zucchini",
+        "mushroom"
+      ]
+    },
+    {
+      "action": "heat",
+      "title": "중강불 올리기",
+      "instruction": "화구를 중강불로 올려 끓여주세요.",
+      "seconds": 0,
+      "heat": "mediumHigh",
+      "ingredientIDs": []
+    },
+    {
+      "action": "simmer",
+      "title": "국물 끓이기",
+      "instruction": "국물이 강하게 끓어오를 때까지 3분간 끓여주세요.",
+      "seconds": 180,
+      "heat": "mediumHigh",
+      "ingredientIDs": [
+        "water",
+        "stockCoin",
+        "fishSauce",
+        "zucchini",
+        "mushroom",
+        "soySauce",
+        "chiliPowder",
+        "oil",
+        "onion",
+        "garlic"
+      ]
+    },
+    {
+      "action": "heat",
+      "title": "중불 조절",
+      "instruction": "화구를 중불로 줄여주세요.",
+      "seconds": 0,
+      "heat": "medium",
+      "ingredientIDs": []
+    },
+    {
+      "action": "simmer",
+      "title": "채소 익히기",
+      "instruction": "애호박과 버섯이 부드럽게 익도록 3분 30초간 끓여주세요.",
+      "seconds": 210,
+      "heat": "medium",
+      "ingredientIDs": [
+        "water",
+        "stockCoin",
+        "fishSauce",
+        "zucchini",
+        "mushroom"
+      ]
+    },
+    {
+      "action": "add",
+      "title": "순두부 넣기",
+      "instruction": "순두부를 숟가락으로 큼직하게 떠 넣어주세요.",
+      "seconds": 0,
+      "heat": "medium",
+      "ingredientIDs": [
+        "softTofu"
+      ]
+    },
+    {
+      "action": "heat",
+      "title": "중약불 조절",
+      "instruction": "화구를 중약불로 조절해 주세요.",
+      "seconds": 0,
+      "heat": "mediumLow",
+      "ingredientIDs": []
+    },
+    {
+      "action": "simmer",
+      "title": "순두부 끓이기",
+      "instruction": "순두부가 으깨지지 않도록 젓지 않고 3분 30초간 끓여주세요.",
+      "seconds": 210,
+      "heat": "mediumLow",
+      "ingredientIDs": [
+        "softTofu"
+      ]
+    },
+    {
+      "action": "add",
+      "title": "후추 넣기",
+      "instruction": "후추를 넣고 가볍게 섞어 마무리해 주세요.",
+      "seconds": 0,
+      "heat": "mediumLow",
+      "ingredientIDs": [
+        "pepper"
+      ]
+    },
+    {
+      "action": "taste",
+      "title": "간 확인",
+      "instruction": "완성된 찌개의 간을 보고 확인해 주세요.",
+      "seconds": 0,
+      "heat": "mediumLow",
+      "ingredientIDs": []
+    }
+  ],
+  "uncertainties": [
+    "버섯의 세부 종류(느타리, 팽이, 표고 등)가 명시되지 않아 일반적인 찌개용 버섯 손질법과 조리 시간을 적용했습니다.",
+    "코인육수의 염도에 따라 완성 시 간이 다소 달라질 수 있으므로 기호에 따라 조절이 필요할 수 있습니다."
+  ]
+}

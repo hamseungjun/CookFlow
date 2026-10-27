@@ -1,0 +1,32 @@
+.build/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+.env
+
+server/.env
+server/*.log
+server/__pycache__/
+
+server/vendor/
+server/data/
+
+# Large generated demos and exports; keep source and compact previews in Git.
+*.zip
+*.pptx
+*.mp4
+*.mov
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local credentials and device pairing configuration
+.env.*
+!.env.example
+CookFlow/Local.xcconfig
+*.pem
+*.key
+*.p12
+*.p8

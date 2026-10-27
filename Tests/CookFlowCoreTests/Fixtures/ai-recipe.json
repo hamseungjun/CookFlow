@@ -1,0 +1,159 @@
+{
+  "title": "기본 된장찌개",
+  "servings": 2,
+  "waterML": 500,
+  "ingredients": [
+    {
+      "id": "ing_water",
+      "name": "물",
+      "amount": 500,
+      "unit": "ml",
+      "fresh": false,
+      "cut": "없음"
+    },
+    {
+      "id": "ing_doenjang",
+      "name": "된장",
+      "amount": 2,
+      "unit": "큰술",
+      "fresh": false,
+      "cut": "없음"
+    },
+    {
+      "id": "ing_tofu",
+      "name": "두부",
+      "amount": 150,
+      "unit": "g",
+      "fresh": true,
+      "cut": "한입 크기 깍둑썰기"
+    },
+    {
+      "id": "ing_zucchini",
+      "name": "애호박",
+      "amount": 0.5,
+      "unit": "개",
+      "fresh": true,
+      "cut": "0.5cm 두께 반달썰기"
+    },
+    {
+      "id": "ing_onion",
+      "name": "양파",
+      "amount": 0.5,
+      "unit": "개",
+      "fresh": true,
+      "cut": "한입 크기 깍둑썰기"
+    },
+    {
+      "id": "ing_green_onion",
+      "name": "대파",
+      "amount": 0.5,
+      "unit": "대",
+      "fresh": true,
+      "cut": "0.5cm 두께 송송 썰기"
+    }
+  ],
+  "steps": [
+    {
+      "action": "placement",
+      "title": "냄비 준비",
+      "instruction": "냄비를 가열대 위에 올립니다.",
+      "seconds": 10,
+      "heat": "off",
+      "ingredientIDs": []
+    },
+    {
+      "action": "add",
+      "title": "물 붓기",
+      "instruction": "냄비에 분량의 물을 붓습니다.",
+      "seconds": 20,
+      "heat": "off",
+      "ingredientIDs": [
+        "ing_water"
+      ]
+    },
+    {
+      "action": "add",
+      "title": "된장 풀기",
+      "instruction": "물에 된장을 넣고 숟가락이나 거름망으로 잘 풀어줍니다.",
+      "seconds": 40,
+      "heat": "off",
+      "ingredientIDs": [
+        "ing_doenjang"
+      ]
+    },
+    {
+      "action": "heat",
+      "title": "불 켜기",
+      "instruction": "가열대를 중강불로 켭니다.",
+      "seconds": 10,
+      "heat": "mediumHigh",
+      "ingredientIDs": []
+    },
+    {
+      "action": "simmer",
+      "title": "된장 국물 끓이기",
+      "instruction": "된장 국물이 팔팔 끓어오를 때까지 기다립니다.",
+      "seconds": 180,
+      "heat": "mediumHigh",
+      "ingredientIDs": []
+    },
+    {
+      "action": "add",
+      "title": "단단한 채소 넣기",
+      "instruction": "끓는 국물에 깍둑썬 양파와 반달썬 애호박을 넣습니다.",
+      "seconds": 30,
+      "heat": "mediumHigh",
+      "ingredientIDs": [
+        "ing_onion",
+        "ing_zucchini"
+      ]
+    },
+    {
+      "action": "heat",
+      "title": "불 조절",
+      "instruction": "불을 중불로 낮춥니다.",
+      "seconds": 10,
+      "heat": "medium",
+      "ingredientIDs": []
+    },
+    {
+      "action": "simmer",
+      "title": "채소 익히기",
+      "instruction": "애호박과 양파가 투명해질 때까지 푹 끓입니다.",
+      "seconds": 240,
+      "heat": "medium",
+      "ingredientIDs": []
+    },
+    {
+      "action": "add",
+      "title": "두부 및 대파 넣기",
+      "instruction": "두부와 대파를 냄비에 넣습니다.",
+      "seconds": 30,
+      "heat": "medium",
+      "ingredientIDs": [
+        "ing_tofu",
+        "ing_green_onion"
+      ]
+    },
+    {
+      "action": "simmer",
+      "title": "한소끔 끓이기",
+      "instruction": "두부에 간이 배고 대파 숨이 죽도록 한소끔 더 끓입니다.",
+      "seconds": 120,
+      "heat": "medium",
+      "ingredientIDs": []
+    },
+    {
+      "action": "taste",
+      "title": "간 확인",
+      "instruction": "국물 맛을 보고 기호에 맞는 염도인지 확인합니다.",
+      "seconds": 30,
+      "heat": "medium",
+      "ingredientIDs": []
+    }
+  ],
+  "uncertainties": [
+    "시판 된장 제품의 염도에 따라 짠맛의 차이가 클 수 있으므로 기호에 따라 끓이는 중 물의 양을 조절해야 할 수 있습니다.",
+    "육수용 재료(멸치, 다시마 등)나 추가 조미료가 포함되지 않은 기본 물 조리법이므로 깊은 감칠맛을 원할 경우 된장의 배합이나 숙성도에 의존적입니다."
+  ]
+}
